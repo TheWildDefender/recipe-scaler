@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Recipe Scaler</string>
+    <string name="menu_item_open">Open</string>
+    <string name="menu_item_save">Save</string>
+    <string name="menu_item_select">Select</string>
+    <string name="menu_item_cancel">Cancel</string>
+    <string name="menu_item_select_all">Select all</string>
+    <string name="menu_item_delete">Delete</string>
+    <string name="add_button_content_desc">Button for adding new items</string>
+    <string name="item_name_label">Ingredient</string>
+    <string name="item_quantity_label">Qnty</string>
+    <string name="item_units_label">Units</string>
+    <string name="start_size_title">Starting serving size:</string>
+    <string name="end_size_title">Ending serving size:</string>
+    <string name="size_input_hint">1</string>
+    <string name="recipe_name_hint">Recipe name</string>
+</resources>

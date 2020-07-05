@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/editorFragment">
+
+    <fragment
+        android:id="@+id/editorFragment"
+        android:name="com.example.recipescaler.EditorFragment"
+        android:label="EditorFragment" >
+        <action
+            android:id="@+id/action_editorFragment_to_fileSelectionFragment"
+            app:destination="@id/fileSelectionFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/fileSelectionFragment"
+        android:name="com.example.recipescaler.FileSelectionFragment"
+        android:label="FileSelectionFragment" >
+        <action
+            android:id="@+id/action_fileSelectionFragment_to_editorFragment"
+            app:destination="@id/editorFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+</navigation>

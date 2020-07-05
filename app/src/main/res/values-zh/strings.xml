@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recipe Scaler</string>
+    <string name="menu_item_open">打开</string>
+    <string name="menu_item_save">保存</string>
+    <string name="menu_item_select">选择</string>
+    <string name="menu_item_cancel">取消</string>
+    <string name="menu_item_select_all">全选</string>
+    <string name="menu_item_delete">删除</string>
+    <string name="add_button_content_desc">加成分</string>
+    <string name="item_name_label">成分</string>
+    <string name="item_quantity_label">数量</string>
+    <string name="item_units_label">单位</string>
+    <string name="start_size_title">起始分量</string>
+    <string name="end_size_title">最终分量</string>
+    <string name="size_input_hint">1</string>
+    <string name="recipe_name_hint">配方名称</string>
+</resources>
